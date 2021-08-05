@@ -19,25 +19,11 @@
 	"startup": "services",
 	"boot": "auto",
 	"options": {
-		"certificate": "/config/cert/argo.pem",
-		"tunnel_name": "homeassistant",
-		"hostname": "host",
-		"service": "http://hassio:8123",
-		"hostname2": "null",
-		"service2": "null",
-		"hostname3": "null",
-		"service3": "null",
+		"url": "http://hassio:8123",
 		"addconfig": "null"
 	},
 	"schema": {
-		"certificate": "str",
-		"tunnel_name": "str",
-		"hostname": "str",
-		"service": "str",
-		"hostname2": "str",
-		"service2": "str",
-		"hostname3": "str",
-		"service3": "str",
+		"url": "str",
 		"addconfig": "str"
 	}
 }
