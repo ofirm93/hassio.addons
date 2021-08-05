@@ -19,7 +19,7 @@
 	"startup": "services",
 	"boot": "auto",
 	"options": {
-		"url": "http://hassio:8123",
+		"url": "http://homeassistant:8123",
 		"addconfig": "null"
 	},
 	"schema": {
